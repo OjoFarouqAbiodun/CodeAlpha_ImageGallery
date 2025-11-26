@@ -28,11 +28,3 @@ Users can click on images to view them in a lightbox, navigate between them, and
 🌐 Live Demo
 
 https://ojofarouqabiodun.github.io/CodeAlpha_ImageGallery/
-
-📸 Screenshot
-
-📽️ LinkedIn Video Walkthrough 
-
-🧑‍💻 Intern: Ojo Farouq Abiodun
-
-Frontend Development Intern –  CodeAlphaa
