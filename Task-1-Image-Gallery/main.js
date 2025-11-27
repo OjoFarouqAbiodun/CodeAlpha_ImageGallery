@@ -5,7 +5,6 @@ const closeBtn = document.querySelector(".close");
 
 let currentIndex = 0;
 
-
 galleryImages.forEach((img, index) => {
     img.addEventListener("click", () => {
         currentIndex = index;
@@ -16,7 +15,6 @@ setTimeout(() => lightbox.style.opacity = "1", 10);
     });
 });
 
-
 closeBtn.addEventListener("click", () => {
     lightbox.style.opacity = "0";
 setTimeout(() => {
@@ -24,7 +22,6 @@ setTimeout(() => {
 }, 300);
 ;
 });
-
 
 document.getElementById("nextBtn").addEventListener("click", () => {
     currentIndex = (currentIndex + 1) % galleryImages.length;
